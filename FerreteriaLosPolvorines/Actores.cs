@@ -20,7 +20,7 @@ namespace FerreteriaLosPalomines
         }
         public class Clientes : Personas
         {
-            public Clientes(string nombre, string apellido, int dni, int telefono, string email)
+            public Clientes(string nombre, string apellido, string dni, string telefono, string email)
             {
                 this.nombre = nombre;
                 this.apellido = apellido;

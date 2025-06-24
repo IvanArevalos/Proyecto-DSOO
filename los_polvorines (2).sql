@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 15-06-2025 a las 21:35:09
+-- Tiempo de generación: 25-06-2025 a las 00:35:31
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -42,6 +42,7 @@ CREATE TABLE `clientes` (
 --
 
 INSERT INTO `clientes` (`Nombre`, `Apellido`, `Dni`, `Usuario`, `Password`, `Telefono`, `Email`) VALUES
+('Ricardo', 'Ramirez', 39802783, '', '', 1123879021, 'ricardoramirez92@gmail.com'),
 ('Ivan', 'Arevalos', 47100266, 'Areski', 'Noviembre2211', 1124974712, 'ivanarevalos@isft220.edu.ar');
 
 -- --------------------------------------------------------
@@ -69,7 +70,8 @@ INSERT INTO `facturas` (`Id_Factura`, `Dni`, `Fecha_Factura`, `Categoria`, `Nomb
 (5, 47100266, '2025-06-15', 'tornilleria', 'Tenaza', 2600, 2),
 (6, 47100266, '2025-06-15', 'herramientas', 'Pinza universal', 7200, 4),
 (7, 43212903, '2025-06-15', 'tornilleria', 'Cortafierro', 4200, 3),
-(8, 43221456, '2025-06-15', 'herramientas', 'Destornillador', 1200, 1);
+(8, 43221456, '2025-06-15', 'herramientas', 'Destornillador', 1200, 1),
+(9, 39802783, '2025-06-24', 'tornilleria', 'Tenaza', 6500, 5);
 
 -- --------------------------------------------------------
 
@@ -139,6 +141,29 @@ INSERT INTO `indumentaria` (`Codigo`, `Nombre`, `Talla`, `Material`, `Stock`, `C
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `ingreso_stock`
+--
+
+CREATE TABLE `ingreso_stock` (
+  `Nombre` text NOT NULL,
+  `Categoria` text NOT NULL,
+  `Marca` text NOT NULL,
+  `Proveedor` text NOT NULL,
+  `Cantidad_Agregada` int(11) NOT NULL,
+  `Codigo_transaccion` int(11) NOT NULL,
+  `Fecha_Ingreso` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `ingreso_stock`
+--
+
+INSERT INTO `ingreso_stock` (`Nombre`, `Categoria`, `Marca`, `Proveedor`, `Cantidad_Agregada`, `Codigo_transaccion`, `Fecha_Ingreso`) VALUES
+('Amoladora', 'herramientas', 'Klugan', 'Ferremax', 15, 3, '2025-06-24');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `personal`
 --
 
@@ -182,7 +207,7 @@ CREATE TABLE `tornilleria` (
 
 INSERT INTO `tornilleria` (`Codigo`, `Nombre`, `Medidas`, `Marca`, `Stock`, `Costo`, `Proveedor`, `Precio_bruto`) VALUES
 (1, 'Sierra manual', '30cm', 'Irwin', 10, '1800', 'FerroSud', '2500'),
-(2, 'Tenaza', '15cm', 'Truper', 25, '950', 'Ferretería Delta', '1300'),
+(2, 'Tenaza', '15cm', 'Truper', 20, '950', 'Ferretería Delta', '1300'),
 (3, 'Nivel de burbuja', '60cm', 'Stanley', 18, '1600', 'Herramientas Rápidas', '2200'),
 (4, 'Metro plegable', '2m', 'Bahco', 40, '700', 'Medidas S.A.', '1100'),
 (5, 'Cortafierro', '20cm', 'Tramontina', 14, '900', 'Distribuidora Norte', '1400'),
@@ -221,6 +246,12 @@ ALTER TABLE `indumentaria`
   ADD PRIMARY KEY (`Codigo`);
 
 --
+-- Indices de la tabla `ingreso_stock`
+--
+ALTER TABLE `ingreso_stock`
+  ADD PRIMARY KEY (`Codigo_transaccion`);
+
+--
 -- Indices de la tabla `personal`
 --
 ALTER TABLE `personal`
@@ -240,19 +271,25 @@ ALTER TABLE `tornilleria`
 -- AUTO_INCREMENT de la tabla `facturas`
 --
 ALTER TABLE `facturas`
-  MODIFY `Id_Factura` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `Id_Factura` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de la tabla `herramientas`
 --
 ALTER TABLE `herramientas`
-  MODIFY `Codigo` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `Codigo` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT de la tabla `indumentaria`
 --
 ALTER TABLE `indumentaria`
   MODIFY `Codigo` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT de la tabla `ingreso_stock`
+--
+ALTER TABLE `ingreso_stock`
+  MODIFY `Codigo_transaccion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `tornilleria`

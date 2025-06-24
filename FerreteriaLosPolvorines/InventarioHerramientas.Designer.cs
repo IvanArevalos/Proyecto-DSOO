@@ -1,6 +1,6 @@
 ﻿namespace FerreteriaLosPalomines
 {
-    partial class InventarioHerramientas
+    partial class InventarioHerramientasCaja
     {
         /// <summary>
         /// Required designer variable.
@@ -266,8 +266,6 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem1.Text = "Herramientas";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";

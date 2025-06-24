@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace FerreteriaLosPalomines
 {
-    public partial class InventarioHerramientas : Form
+    public partial class InventarioHerramientasCaja : Form
     {
-        public InventarioHerramientas()
+        public InventarioHerramientasCaja()
         {
             InitializeComponent();
             Mostrardatosgrillaherramientas();
@@ -77,36 +77,6 @@ namespace FerreteriaLosPalomines
             {
                 MessageBox.Show("Error:" + ex.Message);
             }
-        }
-        private void procesarCompraToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Procesar_Compra ventanaprocesar=new Procesar_Compra();
-            ventanaprocesar.MdiParent = this;
-            ventanaprocesar.Show();
-        }
-
-        private void herramientasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            InventarioHerramientas ventanainventarioherramientascaja = new InventarioHerramientas();
-            ventanainventarioherramientascaja.Show();
-        }
-
-        private void indumentariaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            InventarioIndumentariaCaja ventanainventarioindumentariacaja = new InventarioIndumentariaCaja();
-            ventanainventarioindumentariacaja.Show();
-        }
-
-        private void tornilleriaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            InventarioTornilleriaCaja ventanainventariotornilleriacaja = new InventarioTornilleriaCaja();
-            ventanainventariotornilleriacaja.Show();
-        }
-
-        private void historialDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Historialdefacturascaja ventanahistorialfacturascaja=new Historialdefacturascaja();
-            ventanahistorialfacturascaja.Show();
         }
     }
 }

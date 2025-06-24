@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtboxDnicliente = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnagregarcarrito = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,17 +40,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
             this.cmbNombreProducto = new System.Windows.Forms.ComboBox();
-            this.btnCalcularprecio = new System.Windows.Forms.Button();
             this.dgvCarrito = new System.Windows.Forms.DataGridView();
+            this.cmbDnicliente = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtboxNombrecliente = new System.Windows.Forms.TextBox();
+            this.txtboxApellidocliente = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCarrito)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txtboxDnicliente
-            // 
-            this.txtboxDnicliente.Location = new System.Drawing.Point(12, 100);
-            this.txtboxDnicliente.Name = "txtboxDnicliente";
-            this.txtboxDnicliente.Size = new System.Drawing.Size(148, 20);
-            this.txtboxDnicliente.TabIndex = 28;
             // 
             // label5
             // 
@@ -65,7 +61,7 @@
             // 
             // btnagregarcarrito
             // 
-            this.btnagregarcarrito.Location = new System.Drawing.Point(285, 396);
+            this.btnagregarcarrito.Location = new System.Drawing.Point(468, 396);
             this.btnagregarcarrito.Name = "btnagregarcarrito";
             this.btnagregarcarrito.Size = new System.Drawing.Size(100, 23);
             this.btnagregarcarrito.TabIndex = 26;
@@ -122,7 +118,7 @@
             // 
             // btnFacturar
             // 
-            this.btnFacturar.Location = new System.Drawing.Point(460, 396);
+            this.btnFacturar.Location = new System.Drawing.Point(643, 396);
             this.btnFacturar.Name = "btnFacturar";
             this.btnFacturar.Size = new System.Drawing.Size(132, 23);
             this.btnFacturar.TabIndex = 37;
@@ -136,6 +132,7 @@
             this.txtboxCantidadproducto.Name = "txtboxCantidadproducto";
             this.txtboxCantidadproducto.Size = new System.Drawing.Size(148, 20);
             this.txtboxCantidadproducto.TabIndex = 39;
+            this.txtboxCantidadproducto.TextChanged += new System.EventHandler(this.txtboxCantidadproducto_TextChanged);
             // 
             // label6
             // 
@@ -164,31 +161,68 @@
             this.cmbNombreProducto.Size = new System.Drawing.Size(121, 21);
             this.cmbNombreProducto.TabIndex = 41;
             // 
-            // btnCalcularprecio
-            // 
-            this.btnCalcularprecio.Location = new System.Drawing.Point(16, 396);
-            this.btnCalcularprecio.Name = "btnCalcularprecio";
-            this.btnCalcularprecio.Size = new System.Drawing.Size(100, 23);
-            this.btnCalcularprecio.TabIndex = 42;
-            this.btnCalcularprecio.Text = "Calcular precio";
-            this.btnCalcularprecio.UseVisualStyleBackColor = true;
-            this.btnCalcularprecio.Click += new System.EventHandler(this.btnCalcularprecio_Click);
-            // 
             // dgvCarrito
             // 
             this.dgvCarrito.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCarrito.Location = new System.Drawing.Point(232, 25);
+            this.dgvCarrito.Location = new System.Drawing.Point(441, 25);
             this.dgvCarrito.Name = "dgvCarrito";
             this.dgvCarrito.Size = new System.Drawing.Size(500, 350);
             this.dgvCarrito.TabIndex = 43;
+            // 
+            // cmbDnicliente
+            // 
+            this.cmbDnicliente.FormattingEnabled = true;
+            this.cmbDnicliente.Location = new System.Drawing.Point(12, 100);
+            this.cmbDnicliente.Name = "cmbDnicliente";
+            this.cmbDnicliente.Size = new System.Drawing.Size(121, 21);
+            this.cmbDnicliente.TabIndex = 44;
+            this.cmbDnicliente.SelectedIndexChanged += new System.EventHandler(this.cmbDnicliente_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(175, 73);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(79, 24);
+            this.label7.TabIndex = 46;
+            this.label7.Text = "Nombre";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(317, 73);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(79, 24);
+            this.label8.TabIndex = 48;
+            this.label8.Text = "Apellido";
+            // 
+            // txtboxNombrecliente
+            // 
+            this.txtboxNombrecliente.Location = new System.Drawing.Point(165, 100);
+            this.txtboxNombrecliente.Name = "txtboxNombrecliente";
+            this.txtboxNombrecliente.Size = new System.Drawing.Size(122, 20);
+            this.txtboxNombrecliente.TabIndex = 49;
+            // 
+            // txtboxApellidocliente
+            // 
+            this.txtboxApellidocliente.Location = new System.Drawing.Point(308, 101);
+            this.txtboxApellidocliente.Name = "txtboxApellidocliente";
+            this.txtboxApellidocliente.Size = new System.Drawing.Size(127, 20);
+            this.txtboxApellidocliente.TabIndex = 50;
             // 
             // Procesar_Compra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(802, 442);
+            this.ClientSize = new System.Drawing.Size(953, 442);
+            this.Controls.Add(this.txtboxApellidocliente);
+            this.Controls.Add(this.txtboxNombrecliente);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.cmbDnicliente);
             this.Controls.Add(this.dgvCarrito);
-            this.Controls.Add(this.btnCalcularprecio);
             this.Controls.Add(this.cmbNombreProducto);
             this.Controls.Add(this.cmbCategoria);
             this.Controls.Add(this.txtboxCantidadproducto);
@@ -199,7 +233,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtboxDnicliente);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnagregarcarrito);
             this.Name = "Procesar_Compra";
@@ -211,8 +244,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtboxDnicliente;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnagregarcarrito;
         private System.Windows.Forms.Label label1;
@@ -225,7 +256,11 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cmbCategoria;
         private System.Windows.Forms.ComboBox cmbNombreProducto;
-        private System.Windows.Forms.Button btnCalcularprecio;
         private System.Windows.Forms.DataGridView dgvCarrito;
+        private System.Windows.Forms.ComboBox cmbDnicliente;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtboxNombrecliente;
+        private System.Windows.Forms.TextBox txtboxApellidocliente;
     }
 }

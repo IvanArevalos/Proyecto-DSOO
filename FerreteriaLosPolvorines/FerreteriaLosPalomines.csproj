@@ -99,12 +99,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Actores.cs" />
-    <Compile Include="Forminiciocliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forminiciocliente.Designer.cs">
-      <DependentUpon>Forminiciocliente.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forminiciopersonal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +116,18 @@
     </Compile>
     <Compile Include="Historialdefacturascaja.Designer.cs">
       <DependentUpon>Historialdefacturascaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventarioIndumentariaGerencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventarioIndumentariaGerencia.Designer.cs">
+      <DependentUpon>InventarioIndumentariaGerencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventarioTornilleriaGerencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventarioTornilleriaGerencia.Designer.cs">
+      <DependentUpon>InventarioTornilleriaGerencia.cs</DependentUpon>
     </Compile>
     <Compile Include="InventarioHerramientasGerencia.cs">
       <SubType>Form</SubType>
@@ -141,11 +147,11 @@
     <Compile Include="InventarioIndumentariaCaja.Designer.cs">
       <DependentUpon>InventarioIndumentariaCaja.cs</DependentUpon>
     </Compile>
-    <Compile Include="InventarioHerramientas.cs">
+    <Compile Include="InventarioHerramientasCaja.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InventarioHerramientas.Designer.cs">
-      <DependentUpon>InventarioHerramientas.cs</DependentUpon>
+      <DependentUpon>InventarioHerramientasCaja.cs</DependentUpon>
     </Compile>
     <Compile Include="Formregistrocliente.cs">
       <SubType>Form</SubType>
@@ -153,11 +159,29 @@
     <Compile Include="Formregistrocliente.Designer.cs">
       <DependentUpon>Formregistrocliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProcesarCompraProveedores.cs">
+    <Compile Include="MenuPersonal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuPersonal.Designer.cs">
+      <DependentUpon>MenuPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcesarCompraProveedoresTornilleria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProcesarCompraProveedores.Designer.cs">
-      <DependentUpon>ProcesarCompraProveedores.cs</DependentUpon>
+    <Compile Include="ProcesarCompraProveedoresTornilleria.Designer.cs">
+      <DependentUpon>ProcesarCompraProveedoresTornilleria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcesarCompraProveedoresIndumentaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcesarCompraProveedoresIndumentaria.Designer.cs">
+      <DependentUpon>ProcesarCompraProveedoresIndumentaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcesarCompraProveedoresHerramientas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcesarCompraProveedoresHerramientas.Designer.cs">
+      <DependentUpon>ProcesarCompraProveedoresHerramientas.cs</DependentUpon>
     </Compile>
     <Compile Include="Procesar Compra.cs">
       <SubType>Form</SubType>
@@ -167,9 +191,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forminiciocliente.resx">
-      <DependentUpon>Forminiciocliente.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forminiciopersonal.resx">
       <DependentUpon>Forminiciopersonal.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +199,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Historialdefacturascaja.resx">
       <DependentUpon>Historialdefacturascaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventarioIndumentariaGerencia.resx">
+      <DependentUpon>InventarioIndumentariaGerencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventarioTornilleriaGerencia.resx">
+      <DependentUpon>InventarioTornilleriaGerencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InventarioHerramientasGerencia.resx">
       <DependentUpon>InventarioHerramientasGerencia.cs</DependentUpon>
@@ -189,13 +216,22 @@
       <DependentUpon>InventarioIndumentariaCaja.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InventarioHerramientas.resx">
-      <DependentUpon>InventarioHerramientas.cs</DependentUpon>
+      <DependentUpon>InventarioHerramientasCaja.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formregistrocliente.resx">
       <DependentUpon>Formregistrocliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProcesarCompraProveedores.resx">
-      <DependentUpon>ProcesarCompraProveedores.cs</DependentUpon>
+    <EmbeddedResource Include="MenuPersonal.resx">
+      <DependentUpon>MenuPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcesarCompraProveedoresTornilleria.resx">
+      <DependentUpon>ProcesarCompraProveedoresTornilleria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcesarCompraProveedoresIndumentaria.resx">
+      <DependentUpon>ProcesarCompraProveedoresIndumentaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcesarCompraProveedoresHerramientas.resx">
+      <DependentUpon>ProcesarCompraProveedoresHerramientas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Procesar Compra.resx">
       <DependentUpon>Procesar Compra.cs</DependentUpon>

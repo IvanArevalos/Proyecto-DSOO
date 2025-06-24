@@ -1,126 +1,122 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\",
+  "WorkspaceRootPath": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|c:\\users\\ivana\\desktop\\ferreterialospolvorines\\procesarcompraproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesarcompraproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\procesarcompraproveedorestornilleria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesarcompraproveedorestornilleria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|c:\\users\\ivana\\desktop\\ferreterialospolvorines\\procesarcompraproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesarcompraproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\procesarcompraproveedoresindumentaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesarcompraproveedoresindumentaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\actores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:actores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\procesarcompraproveedoresherramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesarcompraproveedoresherramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|c:\\users\\ivana\\desktop\\ferreterialospolvorines\\inventarioherramientasgerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioherramientasgerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|c:\\users\\ivana\\desktop\\ferreterialospolvorines\\inventarioherramientasgerencia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioherramientasgerencia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|c:\\users\\ivana\\desktop\\ferreterialospolvorines\\forminiciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:forminiciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|c:\\users\\ivana\\desktop\\ferreterialospolvorines\\inventarioherramientasgerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\inventarioherramientasgerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioherramientasgerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\iniciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:iniciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\inventariotornilleriacaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventariotornilleriacaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\forminiciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|c:\\users\\ivana\\documents\\proyectocuatrimestral dsoo\\ferreterialospolvorines\\forminiciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:forminiciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\historialdefacturascaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:historialdefacturascaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\iniciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:iniciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\procesar compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\procesar compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesar compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\inventarioindumentariacaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioindumentariacaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\inventarioherramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioherramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\iniciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\iniciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:iniciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\forminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:forminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\inventariotornilleriagerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventariotornilleriagerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\historialdefacturascaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:historialdefacturascaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\inventarioindumentariagerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioindumentariagerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\inventariotornilleriacaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventariotornilleriacaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\inventarioherramientascaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioherramientascaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\iniciopersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:iniciopersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\inventarioindumentariacaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioindumentariacaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\inventariotornilleriagerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventariotornilleriagerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\inventarioindumentariacaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioindumentariacaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\procesarcompraproveedorestornilleria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesarcompraproveedorestornilleria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\inventarioindumentariacaja.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioindumentariacaja.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\procesarcompraproveedoresindumentaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesarcompraproveedoresindumentaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\inventarioherramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioherramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\procesarcompraproveedoresherramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesarcompraproveedoresherramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\procesar compra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesar compra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\procesar compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\procesar compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesar compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\forminiciopersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:forminiciopersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\iniciopersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:iniciopersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\inventarioherramientas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioherramientas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\inventariotornilleriacaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventariotornilleriacaja.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\forminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:forminiciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\forminiciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:forminiciopersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\historialdefacturascaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:historialdefacturascaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\historialdefacturascaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:historialdefacturascaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\inventarioindumentariacaja.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:inventarioindumentariacaja.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\procesar compra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:procesar compra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\forminiciopersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36D14F-7729-4F7F-A8C3-44FC3E637646}|FerreteriaLosPalomines.csproj|solutionrelative:forminiciopersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioHerramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventarioHerramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,85 +126,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Actores.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Actores.cs",
-              "RelativeDocumentMoniker": "Actores.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Actores.cs",
-              "RelativeToolTip": "Actores.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA6wCsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T21:09:21.312Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProcesarCompraProveedores.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\ProcesarCompraProveedores.cs",
-              "RelativeDocumentMoniker": "ProcesarCompraProveedores.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\ProcesarCompraProveedores.cs",
-              "RelativeToolTip": "ProcesarCompraProveedores.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwEQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T15:17:30.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProcesarCompraProveedores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\ProcesarCompraProveedores.cs",
-              "RelativeDocumentMoniker": "ProcesarCompraProveedores.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\ProcesarCompraProveedores.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProcesarCompraProveedores.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T15:18:24.689Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InventarioHerramientasGerencia.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioHerramientasGerencia.Designer.cs",
-              "RelativeDocumentMoniker": "InventarioHerramientasGerencia.Designer.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioHerramientasGerencia.Designer.cs",
-              "RelativeToolTip": "InventarioHerramientasGerencia.Designer.cs",
-              "ViewState": "AgIAAOABAAAAAAAAAAAjwPYBAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T13:45:51.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InventarioHerramientasGerencia.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioHerramientasGerencia.cs",
-              "RelativeDocumentMoniker": "InventarioHerramientasGerencia.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioHerramientasGerencia.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InventarioHerramientasGerencia.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T13:45:49Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InventarioHerramientasGerencia.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioHerramientasGerencia.cs",
-              "RelativeDocumentMoniker": "InventarioHerramientasGerencia.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioHerramientasGerencia.cs",
-              "RelativeToolTip": "InventarioHerramientasGerencia.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAD4vxgBAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T13:45:21.316Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -219,49 +138,276 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProcesarCompraProveedoresHerramientas.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresHerramientas.cs",
+              "RelativeDocumentMoniker": "ProcesarCompraProveedoresHerramientas.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresHerramientas.cs",
+              "RelativeToolTip": "ProcesarCompraProveedoresHerramientas.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwGgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T15:17:30.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProcesarCompraProveedoresTornilleria.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresTornilleria.cs",
+              "RelativeDocumentMoniker": "ProcesarCompraProveedoresTornilleria.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresTornilleria.cs",
+              "RelativeToolTip": "ProcesarCompraProveedoresTornilleria.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwGgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:52:37.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Forminiciopersonal.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Forminiciopersonal.cs",
+              "Title": "InicioPersonal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InicioPersonal.cs",
+              "RelativeDocumentMoniker": "InicioPersonal.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InicioPersonal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InicioPersonal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T23:25:34.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventarioHerramientasGerencia.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioHerramientasGerencia.cs",
+              "RelativeDocumentMoniker": "InventarioHerramientasGerencia.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioHerramientasGerencia.cs",
+              "RelativeToolTip": "InventarioHerramientasGerencia.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAkwMcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T13:45:21.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Forminiciopersonal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Forminiciopersonal.cs",
               "RelativeDocumentMoniker": "Forminiciopersonal.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Forminiciopersonal.cs",
-              "RelativeToolTip": "Forminiciopersonal.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAApwE4AAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Forminiciopersonal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forminiciopersonal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:03:23.462Z",
+              "WhenOpened": "2025-06-14T20:08:37.49Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProcesarCompraProveedoresIndumentaria.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresIndumentaria.cs",
+              "RelativeDocumentMoniker": "ProcesarCompraProveedoresIndumentaria.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresIndumentaria.cs",
+              "RelativeToolTip": "ProcesarCompraProveedoresIndumentaria.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwGgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:50:11.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InventarioTornilleriaCaja.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioTornilleriaCaja.cs",
-              "RelativeDocumentMoniker": "InventarioTornilleriaCaja.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioTornilleriaCaja.cs",
-              "RelativeToolTip": "InventarioTornilleriaCaja.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAwE8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T18:03:49.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "Procesar Compra.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Procesar Compra.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Procesar Compra.cs",
               "RelativeDocumentMoniker": "Procesar Compra.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Procesar Compra.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Procesar Compra.cs",
               "RelativeToolTip": "Procesar Compra.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAwI0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAvwBkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T14:08:31.738Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InicioPersonal.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InicioPersonal.cs",
+              "RelativeDocumentMoniker": "InicioPersonal.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InicioPersonal.cs",
+              "RelativeToolTip": "InicioPersonal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:46:01.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InventarioHerramientasCaja.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioHerramientasCaja.cs",
+              "RelativeDocumentMoniker": "InventarioHerramientasCaja.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioHerramientasCaja.cs",
+              "RelativeToolTip": "InventarioHerramientasCaja.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAArwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:10:32.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InventarioIndumentariaGerencia.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioIndumentariaGerencia.cs",
+              "RelativeDocumentMoniker": "InventarioIndumentariaGerencia.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioIndumentariaGerencia.cs",
+              "RelativeToolTip": "InventarioIndumentariaGerencia.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAwwMcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:22:35.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InventarioTornilleriaGerencia.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioTornilleriaGerencia.cs",
+              "RelativeDocumentMoniker": "InventarioTornilleriaGerencia.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioTornilleriaGerencia.cs",
+              "RelativeToolTip": "InventarioTornilleriaGerencia.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAwwMcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:22:46.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProcesarCompraProveedoresTornilleria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresTornilleria.cs",
+              "RelativeDocumentMoniker": "ProcesarCompraProveedoresTornilleria.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresTornilleria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProcesarCompraProveedoresTornilleria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:52:58.577Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InventarioTornilleriaGerencia.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioTornilleriaGerencia.cs",
+              "RelativeDocumentMoniker": "InventarioTornilleriaGerencia.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioTornilleriaGerencia.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InventarioTornilleriaGerencia.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:46:31.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProcesarCompraProveedoresIndumentaria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresIndumentaria.cs",
+              "RelativeDocumentMoniker": "ProcesarCompraProveedoresIndumentaria.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresIndumentaria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProcesarCompraProveedoresIndumentaria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:50:04.182Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:12:52.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProcesarCompraProveedoresHerramientas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresHerramientas.cs",
+              "RelativeDocumentMoniker": "ProcesarCompraProveedoresHerramientas.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\ProcesarCompraProveedoresHerramientas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProcesarCompraProveedoresHerramientas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T15:18:24.689Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InventarioHerramientas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioHerramientas.Designer.cs",
+              "RelativeDocumentMoniker": "InventarioHerramientas.Designer.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioHerramientas.Designer.cs",
+              "RelativeToolTip": "InventarioHerramientas.Designer.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAtwAsBAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:22:43.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Procesar Compra.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Procesar Compra.cs",
+              "RelativeDocumentMoniker": "Procesar Compra.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Procesar Compra.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Procesar Compra.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:19:00.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InicioPersonal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InicioPersonal.Designer.cs",
+              "RelativeDocumentMoniker": "InicioPersonal.Designer.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InicioPersonal.Designer.cs",
+              "RelativeToolTip": "InicioPersonal.Designer.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAkwKcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:08:12.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InventarioTornilleriaCaja.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioTornilleriaCaja.Designer.cs",
+              "RelativeDocumentMoniker": "InventarioTornilleriaCaja.Designer.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioTornilleriaCaja.Designer.cs",
+              "RelativeToolTip": "InventarioTornilleriaCaja.Designer.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAtwAsBAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:22:56.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Formregistrocliente.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Formregistrocliente.cs",
+              "RelativeDocumentMoniker": "Formregistrocliente.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Formregistrocliente.cs",
+              "RelativeToolTip": "Formregistrocliente.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAEwCMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T12:58:02.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Forminiciopersonal.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Forminiciopersonal.cs",
+              "RelativeDocumentMoniker": "Forminiciopersonal.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Forminiciopersonal.cs",
+              "RelativeToolTip": "Forminiciopersonal.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAtwEEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T19:03:23.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Historialdefacturascaja.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Historialdefacturascaja.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Historialdefacturascaja.cs",
               "RelativeDocumentMoniker": "Historialdefacturascaja.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Historialdefacturascaja.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Historialdefacturascaja.cs",
               "RelativeToolTip": "Historialdefacturascaja.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAcwE0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -269,58 +415,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "Formregistrocliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Formregistrocliente.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Formregistrocliente.cs",
               "RelativeDocumentMoniker": "Formregistrocliente.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Formregistrocliente.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Formregistrocliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "Formregistrocliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T20:08:35.499Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-06-14T20:08:35.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InicioPersonal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InicioPersonal.cs",
-              "RelativeDocumentMoniker": "InicioPersonal.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InicioPersonal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InicioPersonal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T23:05:41.397Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Forminiciopersonal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Forminiciopersonal.cs",
-              "RelativeDocumentMoniker": "Forminiciopersonal.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Forminiciopersonal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forminiciopersonal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T20:08:37.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "InventarioIndumentariaCaja.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioIndumentariaCaja.cs",
-              "RelativeDocumentMoniker": "InventarioIndumentariaCaja.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioIndumentariaCaja.cs",
-              "RelativeToolTip": "InventarioIndumentariaCaja.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAwG4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T17:59:54.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "InventarioHerramientas.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioHerramientas.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioHerramientas.cs",
               "RelativeDocumentMoniker": "InventarioHerramientas.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioHerramientas.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioHerramientas.cs",
               "RelativeToolTip": "InventarioHerramientas.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAAwE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -328,105 +438,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "InicioPersonal.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InicioPersonal.cs",
-              "RelativeDocumentMoniker": "InicioPersonal.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InicioPersonal.cs",
-              "RelativeToolTip": "InicioPersonal.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAEwBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T17:46:01.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Forminiciocliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Forminiciocliente.cs",
-              "RelativeDocumentMoniker": "Forminiciocliente.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Forminiciocliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forminiciocliente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T20:11:09.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "Historialdefacturascaja.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Historialdefacturascaja.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Historialdefacturascaja.cs",
               "RelativeDocumentMoniker": "Historialdefacturascaja.cs",
               "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Historialdefacturascaja.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Historialdefacturascaja.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\FerreteriaLosPolvorines\\Historialdefacturascaja.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T18:19:31.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "InventarioTornilleriaCaja.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioTornilleriaCaja.cs",
-              "RelativeDocumentMoniker": "InventarioTornilleriaCaja.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioTornilleriaCaja.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InventarioTornilleriaCaja.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T18:04:57.041Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "InicioPersonal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InicioPersonal.Designer.cs",
-              "RelativeDocumentMoniker": "InicioPersonal.Designer.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InicioPersonal.Designer.cs",
-              "RelativeToolTip": "InicioPersonal.Designer.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAjwGkAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T18:08:12.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "InventarioIndumentariaCaja.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioIndumentariaCaja.Designer.cs",
-              "RelativeDocumentMoniker": "InventarioIndumentariaCaja.Designer.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioIndumentariaCaja.Designer.cs",
-              "RelativeToolTip": "InventarioIndumentariaCaja.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T18:03:20.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "InventarioIndumentariaCaja.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioIndumentariaCaja.cs",
-              "RelativeDocumentMoniker": "InventarioIndumentariaCaja.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioIndumentariaCaja.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InventarioIndumentariaCaja.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T18:01:02.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "InventarioIndumentariaCaja.resx",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioIndumentariaCaja.resx",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioIndumentariaCaja.resx",
               "RelativeDocumentMoniker": "InventarioIndumentariaCaja.resx",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioIndumentariaCaja.resx",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\InventarioIndumentariaCaja.resx",
               "RelativeToolTip": "InventarioIndumentariaCaja.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2025-06-15T18:04:55.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Procesar Compra.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Procesar Compra.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Procesar Compra.Designer.cs",
               "RelativeDocumentMoniker": "Procesar Compra.Designer.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Procesar Compra.Designer.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Procesar Compra.Designer.cs",
               "RelativeToolTip": "Procesar Compra.Designer.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAqwEgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -434,74 +472,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "InventarioHerramientas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioHerramientas.cs",
-              "RelativeDocumentMoniker": "InventarioHerramientas.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\InventarioHerramientas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InventarioHerramientas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T20:32:31.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Procesar Compra.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Procesar Compra.cs",
-              "RelativeDocumentMoniker": "Procesar Compra.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Procesar Compra.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Procesar Compra.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T15:19:00.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Forminiciopersonal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Forminiciopersonal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Forminiciopersonal.Designer.cs",
               "RelativeDocumentMoniker": "Forminiciopersonal.Designer.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Forminiciopersonal.Designer.cs",
+              "ToolTip": "C:\\Users\\IvanA\\Documents\\ProyectoCuatrimestral DSOO\\FerreteriaLosPolvorines\\Forminiciopersonal.Designer.cs",
               "RelativeToolTip": "Forminiciopersonal.Designer.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAqwHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T20:10:08.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Formregistrocliente.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Formregistrocliente.cs",
-              "RelativeDocumentMoniker": "Formregistrocliente.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Formregistrocliente.cs",
-              "RelativeToolTip": "Formregistrocliente.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDEAAACHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T12:58:02.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Forminiciocliente.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Forminiciocliente.cs",
-              "RelativeDocumentMoniker": "Forminiciocliente.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Forminiciocliente.cs",
-              "RelativeToolTip": "Forminiciocliente.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAxwDgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T12:57:55.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\IvanA\\Desktop\\FerreteriaLosPolvorines\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T13:12:52.529Z"
             }
           ]
         }

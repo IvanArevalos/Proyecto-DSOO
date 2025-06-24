@@ -1,6 +1,6 @@
 ﻿namespace FerreteriaLosPalomines
 {
-    partial class ProcesarCompraProveedores
+    partial class ProcesarCompraProveedoresTornilleria
     {
         /// <summary>
         /// Required designer variable.

@@ -31,8 +31,8 @@ namespace FerreteriaLosPalomines
             {
                 string nombrecliente = txtboxNombrecliente.Text;
                 string apellidocliente = txtboxApellidocliente.Text;
-                int dnicliente = int.Parse(txtboxDnicliente.Text);
-                int telefonocliente = int.Parse(txtboxTelefonocliente.Text);
+                string dnicliente = txtboxDnicliente.Text;
+                string telefonocliente = txtboxTelefonocliente.Text;
                 string emailcliente = txtboxEmailcliente.Text;
 
                 Actores.Clientes nuevocliente = new Actores.Clientes(nombrecliente,apellidocliente,dnicliente,telefonocliente,emailcliente);

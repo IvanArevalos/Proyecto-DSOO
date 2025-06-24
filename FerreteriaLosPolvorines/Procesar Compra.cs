@@ -22,6 +22,7 @@ namespace FerreteriaLosPalomines
             cmbCategoria.Items.Add("tornilleria");
             cmbCategoria.Items.Add("indumentaria");
             cmbCategoria.Items.Add("herramientas");
+            CargarDnisClientes();
         }
         private void cmbCategoria_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -94,11 +95,16 @@ namespace FerreteriaLosPalomines
         {
             try
             {
-                int dnicliente = int.Parse(txtboxDnicliente.Text);
+                int dnicliente = int.Parse(cmbDnicliente.Text);
                 string categoriaproductocliente = cmbCategoria.SelectedItem.ToString();
                 string nombreproductocliente = cmbNombreProducto.SelectedItem.ToString();
                 int cantidadproductocliente = int.Parse(txtboxCantidadproducto.Text);
                 decimal precioproductocliente = int.Parse(txtboxPrecioproducto.Text);
+                if (cmbDnicliente.SelectedIndex == -1)
+                {
+                    MessageBox.Show("Por favor, seleccione un cliente.");
+                    return;
+                }
                 ProductoVenta Factura = new ProductoVenta(dnicliente,nombreproductocliente, categoriaproductocliente, cantidadproductocliente, precioproductocliente);
                 carrito.Add(Factura);
                 RefrescarCarrito();
@@ -168,35 +174,108 @@ namespace FerreteriaLosPalomines
                 MessageBox.Show("Error al facturar: " + ex.Message);
             }
         }
-        private void procesarCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        private void txtboxCantidadproducto_TextChanged(object sender, EventArgs e)
         {
-            Procesar_Compra ventanaprocesar = new Procesar_Compra();
-            ventanaprocesar.MdiParent = this;
-            ventanaprocesar.Show();
+            try
+            {
+                string categoriaproducto = cmbCategoria.SelectedItem.ToString();
+                string nombreproducto = cmbNombreProducto.SelectedItem.ToString();
+                int cantidadproducto = int.Parse(txtboxCantidadproducto.Text);
+                string textoconexion = $"Server=localhost;Port={Globales.PORT};Database=los polvorines;Uid=root;Pwd=;";
+                using (MySqlConnection conexion = new MySqlConnection(textoconexion))
+                {
+                    conexion.Open();
+                    string consulta = $"SELECT Precio_bruto FROM `{categoriaproducto}` WHERE Nombre=@Nombre";
+                    using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
+                    {
+                        comando.Parameters.AddWithValue("@Nombre", nombreproducto);
+                        using (MySqlDataReader lector = comando.ExecuteReader())
+                        {
+                            if (lector.Read())
+                            {
+                                decimal precioUnitario = lector.GetDecimal("Precio_bruto");
+                                decimal preciototal = precioUnitario * cantidadproducto;
+                                txtboxPrecioproducto.Text = preciototal.ToString();
+                            }
+                            else
+                            {
+                                MessageBox.Show("No se encontró el producto.");
+                                return;
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar productos: " + ex.Message);
+            }
+        }
+        private void CargarDnisClientes()
+        {
+            try
+            {
+                string textoconexion = $"Server=localhost;Port={Globales.PORT};Database=los polvorines;Uid=root;Pwd=;";
+                using (MySqlConnection conexion = new MySqlConnection(textoconexion))
+                {
+                    conexion.Open();
+                    string consulta = "SELECT Dni FROM clientes";
+
+                    using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
+                    {
+                        using (MySqlDataReader lector = comando.ExecuteReader())
+                        {
+                            while (lector.Read())
+                            {
+                                cmbDnicliente.Items.Add(lector["Dni"].ToString());
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar DNI de clientes: " + ex.Message);
+            }
         }
 
-        private void herramientasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void cmbDnicliente_SelectedIndexChanged(object sender, EventArgs e)
         {
-            InventarioHerramientas ventanainventarioherramientascaja = new InventarioHerramientas();
-            ventanainventarioherramientascaja.Show();
-        }
+            try
+            {
+                string dniSeleccionado = cmbDnicliente.SelectedItem.ToString();
+                string textoconexion = $"Server=localhost;Port={Globales.PORT};Database=los polvorines;Uid=root;Pwd=;";
 
-        private void indumentariaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            InventarioIndumentariaCaja ventanainventarioindumentariacaja = new InventarioIndumentariaCaja();
-            ventanainventarioindumentariacaja.Show();
-        }
+                using (MySqlConnection conexion = new MySqlConnection(textoconexion))
+                {
+                    conexion.Open();
+                    string consulta = "SELECT Nombre, Apellido FROM clientes WHERE Dni = @Dni";
 
-        private void tornilleriaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            InventarioTornilleriaCaja ventanainventariotornilleriacaja = new InventarioTornilleriaCaja();
-            ventanainventariotornilleriacaja.Show();
-        }
+                    using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
+                    {
+                        comando.Parameters.AddWithValue("@Dni", dniSeleccionado);
 
-        private void historialDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Historialdefacturascaja ventanahistorialfacturascaja = new Historialdefacturascaja();
-            ventanahistorialfacturascaja.Show();
+                        using (MySqlDataReader lector = comando.ExecuteReader())
+                        {
+                            if (lector.Read())
+                            {
+                                txtboxNombrecliente.Text = lector["Nombre"].ToString();
+                                txtboxApellidocliente.Text = lector["Apellido"].ToString();
+                            }
+                            else
+                            {
+                                txtboxNombrecliente.Clear();
+                                txtboxApellidocliente.Clear();
+                                MessageBox.Show("No se encontró el cliente.");
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al buscar cliente: " + ex.Message);
+            }
         }
     }
 }

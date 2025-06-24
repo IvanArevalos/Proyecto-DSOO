@@ -11,14 +11,14 @@ using MySql.Data.MySqlClient;
 
 namespace FerreteriaLosPalomines
 {
-    public partial class InventarioHerramientasGerencia : Form
+    public partial class InventarioTornilleriaGerencia : Form
     {
-        public InventarioHerramientasGerencia()
+        public InventarioTornilleriaGerencia()
         {
             InitializeComponent();
-            Mostrardatosgrillaherramientas();
+            Mostrardatosgrillatornilleria();
         }
-        public void Mostrardatosgrillaherramientas()
+        public void Mostrardatosgrillatornilleria()
         {
             try
             {
@@ -26,7 +26,7 @@ namespace FerreteriaLosPalomines
                 using (MySqlConnection conexion = new MySqlConnection(textoConexion))
                 {
                     conexion.Open();
-                    string consulta = "select * from herramientas";
+                    string consulta = "select * from tornilleria";
                     using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
                     {
                         using (MySqlDataAdapter datos = new MySqlDataAdapter(comando))
@@ -51,11 +51,11 @@ namespace FerreteriaLosPalomines
             {
                 string nombreproducto=txtboxNombreproducto.Text;
                 string marcaproducto=txtboxMarcaproducto.Text;
-                string costoproducto=txtboxCostoproducto.Text;
+                string costoproducto = txtboxCostoproducto.Text;
                 string proveedorproducto=txtboxProveedorproducto.Text;
-                string preciobrutoproducto=txtboxPreciobrutoproducto.Text;
-                string codigoproducto =txtboxCodigoproducto.Text;
-                string cantidadproducto =txtboxCantidadproducto.Text;
+                string preciobrutoproducto = txtboxPreciobrutoproducto.Text;
+                string codigoproducto = txtboxCodigoproducto.Text;
+                string cantidadproducto = txtboxCantidadproducto.Text;
                 string textoConexion = $"Server=localhost;Port={Globales.PORT};Database=los polvorines;Uid=root;Pwd=;";
                 if (!string.IsNullOrWhiteSpace(txtboxCantidadproducto.Text) &&
                     string.IsNullOrWhiteSpace(txtboxNombreproducto.Text) &&
@@ -67,7 +67,7 @@ namespace FerreteriaLosPalomines
                     using (MySqlConnection conexion = new MySqlConnection(textoConexion))
                     {
                         conexion.Open();
-                        string consulta = "UPDATE herramientas set Stock=@Cantidad WHERE Codigo=@Codigo";
+                        string consulta = "UPDATE tornilleria set Stock=@Cantidad WHERE Codigo=@Codigo";
                         using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
                         {
                             comando.Parameters.AddWithValue("@Cantidad", cantidadproducto);
@@ -76,7 +76,7 @@ namespace FerreteriaLosPalomines
                             int columnasmodificadas = comando.ExecuteNonQuery();
                             if (columnasmodificadas > 0)
                             {
-                                Mostrardatosgrillaherramientas();
+                                Mostrardatosgrillatornilleria();
                             }
                             else
                             {
@@ -95,7 +95,7 @@ namespace FerreteriaLosPalomines
                     using (MySqlConnection conexion = new MySqlConnection(textoConexion))
                     {
                         conexion.Open();
-                        string consulta = "UPDATE herramientas set Nombre=@Nombre WHERE Codigo=@Codigo";
+                        string consulta = "UPDATE tornilleria set Nombre=@Nombre WHERE Codigo=@Codigo";
                         using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
                         {
                             comando.Parameters.AddWithValue("@Nombre", nombreproducto);
@@ -104,7 +104,7 @@ namespace FerreteriaLosPalomines
                             int columnasmodificadas = comando.ExecuteNonQuery();
                             if (columnasmodificadas > 0)
                             {
-                                Mostrardatosgrillaherramientas();
+                                Mostrardatosgrillatornilleria();
                             }
                             else
                             {
@@ -123,7 +123,7 @@ namespace FerreteriaLosPalomines
                     using (MySqlConnection conexion = new MySqlConnection(textoConexion))
                     {
                         conexion.Open();
-                        string consulta = "UPDATE herramientas set Marca=@Marca WHERE Codigo=@Codigo";
+                        string consulta = "UPDATE tornilleria set Marca=@Marca WHERE Codigo=@Codigo";
                         using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
                         {
                             comando.Parameters.AddWithValue("@Marca", marcaproducto);
@@ -132,7 +132,7 @@ namespace FerreteriaLosPalomines
                             int columnasmodificadas = comando.ExecuteNonQuery();
                             if (columnasmodificadas > 0)
                             {
-                                Mostrardatosgrillaherramientas();
+                                Mostrardatosgrillatornilleria();
                             }
                             else
                             {
@@ -151,7 +151,7 @@ namespace FerreteriaLosPalomines
                     using (MySqlConnection conexion = new MySqlConnection(textoConexion))
                     {
                         conexion.Open();
-                        string consulta = "UPDATE herramientas set Costo=@Costo WHERE Codigo=@Codigo";
+                        string consulta = "UPDATE tornilleria set Costo=@Costo WHERE Codigo=@Codigo";
                         using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
                         {
                             comando.Parameters.AddWithValue("@Costo", costoproducto);
@@ -160,7 +160,7 @@ namespace FerreteriaLosPalomines
                             int columnasmodificadas = comando.ExecuteNonQuery();
                             if (columnasmodificadas > 0)
                             {
-                                Mostrardatosgrillaherramientas();
+                                Mostrardatosgrillatornilleria();
                             }
                             else
                             {
@@ -179,7 +179,7 @@ namespace FerreteriaLosPalomines
                     using (MySqlConnection conexion = new MySqlConnection(textoConexion))
                     {
                         conexion.Open();
-                        string consulta = "UPDATE herramientas set Proveedor=@Proveedor WHERE Codigo=@Codigo";
+                        string consulta = "UPDATE tornilleria set Proveedor=@Proveedor WHERE Codigo=@Codigo";
                         using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
                         {
                             comando.Parameters.AddWithValue("@Proveedor", proveedorproducto);
@@ -188,7 +188,7 @@ namespace FerreteriaLosPalomines
                             int columnasmodificadas = comando.ExecuteNonQuery();
                             if (columnasmodificadas > 0)
                             {
-                                Mostrardatosgrillaherramientas();
+                                Mostrardatosgrillatornilleria();
                             }
                             else
                             {
@@ -207,7 +207,7 @@ namespace FerreteriaLosPalomines
                     using (MySqlConnection conexion = new MySqlConnection(textoConexion))
                     {
                         conexion.Open();
-                        string consulta = "UPDATE herramientas set Precio_bruto=@Precio_bruto WHERE Codigo=@Codigo";
+                        string consulta = "UPDATE tornilleria set Precio_bruto=@Precio_bruto WHERE Codigo=@Codigo";
                         using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
                         {
                             comando.Parameters.AddWithValue("@Precio_bruto", preciobrutoproducto);
@@ -216,7 +216,7 @@ namespace FerreteriaLosPalomines
                             int columnasmodificadas = comando.ExecuteNonQuery();
                             if (columnasmodificadas > 0)
                             {
-                                Mostrardatosgrillaherramientas();
+                                Mostrardatosgrillatornilleria();
                             }
                             else
                             {
@@ -241,7 +241,7 @@ namespace FerreteriaLosPalomines
                 using (MySqlConnection conexion = new MySqlConnection(textoConexion))
                 {
                     conexion.Open();
-                    string consulta = "DELETE FROM herramientas WHERE Codigo=@Codigo";
+                    string consulta = "DELETE FROM tornilleria WHERE Codigo=@Codigo";
                     using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
                     {
                         comando.Parameters.AddWithValue("@Codigo", codigoproducto);
@@ -249,7 +249,7 @@ namespace FerreteriaLosPalomines
                         int columnasmodificadas = comando.ExecuteNonQuery();
                         if (columnasmodificadas > 0)
                         {
-                            Mostrardatosgrillaherramientas();
+                            Mostrardatosgrillatornilleria();
                         }
                         else
                         {

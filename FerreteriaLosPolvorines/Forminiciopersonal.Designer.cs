@@ -53,12 +53,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(142, 81);
+            this.label2.Location = new System.Drawing.Point(168, 82);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(519, 86);
+            this.label2.Size = new System.Drawing.Size(453, 86);
             this.label2.TabIndex = 2;
-            this.label2.Text = "LOS PALOMINES";
+            this.label2.Text = "Los Polvorines";
             // 
             // label3
             // 
